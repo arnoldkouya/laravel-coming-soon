@@ -1,0 +1,32 @@
+# Fichiers spécifiques à Laravel
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+.env
+.env.backup
+.env.example
+
+# Ignorer les fichiers de cache
+/.phpunit.result.cache
+/.idea
+/.vscode
+.phpunit.result.cache
+
+# Ignorer les fichiers générés par Composer
+composer.lock
+
+# Ignorer les fichiers de logs et temporaires
+storage/*.key
+storage/debugbar
+storage/logs
+storage/framework/cache
+storage/framework/sessions
+storage/framework/testing
+storage/framework/views
+
+# Ignorer les fichiers de configuration de l'éditeur
+.DS_Store
+Thumbs.db
+*.sublime-workspace
+*.sublime-project
