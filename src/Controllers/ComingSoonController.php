@@ -1,9 +1,9 @@
+<?php
+namespace ArnoldKouya\LaraComingSoon\Controllers;
 
-namespace ArnoldKouya\\LaraComingSoon\\Controllers;
-
-use Illuminate\\Http\\Request;
-use ArnoldKouya\\LaraComingSoon\\Models\\ComingSoon;
-use App\\Http\\Controllers\\Controller;
+use Illuminate\Http\Request;
+use ArnoldKouya\LaraComingSoon\Models\ComingSoon;
+use Illuminate\Routing\Controller;
 
 class ComingSoonController extends Controller
 {

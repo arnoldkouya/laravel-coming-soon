@@ -1,7 +1,7 @@
+<?php
+namespace ArnoldKouya\LaraComingSoon\Models;
 
-namespace ArnoldKouya\\LaraComingSoon\\Models;
-
-use Illuminate\\Database\\Eloquent\\Model;
+use Illuminate\Database\Eloquent\Model;
 
 class ComingSoon extends Model
 {

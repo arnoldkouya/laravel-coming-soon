@@ -1,8 +1,8 @@
-
-namespace ArnoldKouya\\LaraComingSoon\\Middleware;
+<?php
+namespace ArnoldKouya\LaraComingSoon\Middleware;
 
 use Closure;
-use ArnoldKouya\\LaraComingSoon\\Models\\ComingSoon;
+use ArnoldKouya\LaraComingSoon\Models\ComingSoon;
 
 class ComingSoonMiddleware
 {

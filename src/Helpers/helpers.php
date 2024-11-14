@@ -1,4 +1,4 @@
-
+<?php
 if (!function_exists('isMaintenanceMode')) {
     function isMaintenanceMode()
     {

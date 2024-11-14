@@ -2,7 +2,6 @@
 namespace ArnoldKouya\LaraComingSoon;
 
 use Illuminate\Support\ServiceProvider;
-use Illuminate\Support\Facades\Route;
 
 class LaraComingSoonServiceProvider extends ServiceProvider
 {
@@ -19,8 +18,6 @@ class LaraComingSoonServiceProvider extends ServiceProvider
         if (file_exists(__DIR__ . '/Helpers/helpers.php')) {
             require_once __DIR__ . '/Helpers/helpers.php';
         }
-
-        // load enum
         if (file_exists(__DIR__ . '/Enums/ComingSoonTypeEnum.php')) {
             require_once __DIR__ . '/Enums/ComingSoonTypeEnum.php';
         }
@@ -28,6 +25,5 @@ class LaraComingSoonServiceProvider extends ServiceProvider
 
     public function register()
     {
-        // Enregistre les configurations
     }
 }
