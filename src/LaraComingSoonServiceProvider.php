@@ -13,7 +13,7 @@ class LaraComingSoonServiceProvider extends ServiceProvider
 
         $this->loadRoutesFrom(__DIR__ . '/routes/web.php');
 
-        $this->loadViewsFrom(__DIR__ . '/views', 'lara-coming-soon');
+        $this->loadViewsFrom(__DIR__ . '/resources/views', 'lara-coming-soon');
 
         if (file_exists(__DIR__ . '/Helpers/helpers.php')) {
             require_once __DIR__ . '/Helpers/helpers.php';
