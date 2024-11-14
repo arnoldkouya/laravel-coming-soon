@@ -7,8 +7,8 @@ class CreateComingSoonTable extends Migration
 {
     public function up()
     {
-        Schema::create('coming_soon', function (Blueprint $table) {
-            $table->id();
+        Schema::create('coming_soons', function (Blueprint $table) {
+            $table->increments('id');
             $table->string('type');
             $table->string('image')->nullable();
             $table->text('message')->nullable();
