@@ -1,5 +1,5 @@
 {
-    "name": "arnoldkouya/laravel-coming-soon",
+    "name": "arnoldkouya/lara-coming-soon",
     "description": "A Laravel package for managing maintenance modes with IP whitelisting",
     "type": "library",
     "license": "MIT",
@@ -32,5 +32,8 @@
         }
     },
     "minimum-stability": "stable",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "replace": {
+        "illuminate/support": "*"
+    }
 }
